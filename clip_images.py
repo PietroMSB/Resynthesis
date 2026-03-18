@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import torch
 
 #parameters
-path_dataset = "Dataset/100people/images/" 
+path_dataset = "Dataset/images/" 
 path_output = "Extracted_Features/clip_features.npy"
 transform_ops = ["jpeg", "resize", "crop", "webp", "rotation", "contrast", "brightness", "blur", "social", "greyscale", "hsv", "cmyk", "median", "printscan", "twitter", "whitenoise", "perlinnoise"]
 apply_transform = None
